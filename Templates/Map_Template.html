@@ -9,20 +9,26 @@
 	<header>
         <image href="./Media/Header.png" alt="Header:" />
         <hr/>
-        <nav>
+        <nav id="HeaderNav">
         	<!--TODO: Make this Horizontal -->
         </nav>
     </header>
     <section>
     	<article>
-        <image href="./Media/LMap.png" alt="Map of Lawerence Town" />
-        <map name="LMapMap">
-    		<area> <!-- TODO: Figure out how we acomplish Hover elements, And make it possible for people to see the content on mobile -->
-        </map>
+        	<figure>
+        		<image href="./Media/LMap.png" alt="Map of Lawerence Town" usemap="#LMapMap"/>
+                <figcaption> Map of Lawrence Town <!--TODO: Attempt to Put Inline Images to see if we can make this into a legend -->
+                </figcaption>
+            </figure>
+            
+        	<map name="LMapMap">
+    			<area> <!-- TODO: Figure out how we acomplish Hover elements, And make it possible for people to see the content on mobile -->
+        	</map>
     	</article>
     </section>
     <footer>
-    
+    	<nav id="FooterNav"> <!--Fill in Footer Nav --> </nav>
+       	 <p>|<!-- Fill in Footer Licenses-->  |</p>
     </footer>
 </body>
 </html>
