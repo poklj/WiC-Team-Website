@@ -1,0 +1,23 @@
+	#Map {
+		display:none;
+	}
+	#Table{
+		display:none;
+	}
+	#Mobile-Fallback {
+		display: none;
+	}
+
+@media only screen and (min-width: 481px) {
+	img#Map {
+		width:100%;
+		height:50%;
+		display: block;
+	}
+	table{
+		display:block;
+		padding-left:15%;
+		}
+
+	
+}
