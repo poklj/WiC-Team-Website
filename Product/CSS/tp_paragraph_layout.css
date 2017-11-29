@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*
+   Author: 2017-11-24
+   Date: 2017-11-24
+   
+   Filename: tp_attendence_layout.css
+
+*/
+
+/* Stand */
+
+*{
+	-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box; 
+}
+
+header{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+
+#navicon{
+	display: none;
+}
+
+section{
+	clear: both;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 480px){
+
+#navicon{
+	display: block;
+}
+
+.horizontal ul{
+	display: none;
+}
+
+#navicon:hover+ul, nav.horizontal ul:hover{
+	display: block;
+	margin: -2px;
+}
+header img{
+	display: none;
+	}
+	
+div.links{
+	display: none;
+}
+}
+
+/* Desktop + Tablet */
+
+@media only screen and (min-width: 481px) {
+
+	.horizontal ul {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+	}
+	.horizontal ul li {
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+	div.p1, div.p2{
+	float: left;
+	width: 50%;
+	}
+
+
+	div.links{
+	clear: both;
+	text-align: center;
+	}
+}
