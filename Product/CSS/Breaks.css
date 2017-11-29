@@ -1,19 +1,5 @@
-body{
-	background-color:#FFAADD;
-	margin:auto;
-	width:80%;
-	padding:10px;
-}
-
-.background_combine, article *{
-	background-color:#1A4B06;
-}
-.h1_center {
-	text-align:center;
-}
-article section{
+section{
 	display:block;
 	float:left;
-	min-width:50%;
-	max-width:50%;
 }
+
