@@ -23,7 +23,6 @@ header{
 	flex-direction: row;
 }
 
-
 #navicon{
 	display: none;
 }
@@ -67,16 +66,14 @@ div.links{
 		display: flex;
 		-webkit-flex-direction: row;
 		flex-direction: row;
-	}
-	.horizontal ul li {
 		-webkit-flex: 1 1 auto;
 		flex: 1 1 auto;
 	}
+	
 	div.p1, div.p2{
 	float: left;
 	width: 50%;
 	}
-
 
 	div.links{
 	clear: both;

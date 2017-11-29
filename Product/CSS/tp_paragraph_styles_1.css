@@ -1,0 +1,115 @@
+@charset "utf-8";
+/*
+   Author: 2017-11-24
+   Date: 2017-11-24
+   
+   Filename: tp_attendence_styles.css
+
+*/
+
+
+/* Standard */
+
+*{
+	background-color: #002366;
+	color: white;
+	-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+header{
+	background-color: #002366;
+	color: white;
+	border: outset 10px;
+	border-color: orange;
+}
+
+header h1{
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+fieldset{
+	border: outset 10px;
+	border-color: orange;
+}
+	
+nav{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	background-color: #002366;
+	list-style-type: none;
+	font-family: Arial;
+	margin-top: 18px;
+}
+
+nav ul a:link, nav ul a:visited, nav ul a:hover, nav ul a:active{
+	color: white;
+	text-decoration: none;
+}
+
+section{
+	border: outset 10px;
+	border-color: orange;
+}
+
+section > h2{
+	text-decoration: underline;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+div.p1, div.p2{
+	border: solid 25px;
+	border-color: #002366;
+}
+
+div.links{
+	border: solid 5px;
+	border-color: #002366;
+}
+
+
+/* Desktop + Tablet */
+
+@media only screen and (min-width: 481px) {
+	
+	header h1{
+	font-size: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	header{
+	border: outset 10px;
+	border-color: orange;
+	}
+	
+	header img{
+		width: 150px;
+	}
+	
+	.horizontal ul li{
+		border: solid 5px;
+		border-color: #002366;
+		font-size: 0.75em;
+	}
+	
+	body > .horizontal li{
+		font-size: 1em;
+		border: outset 5px;
+		border-color: orange;
+	}
+	
+	div.links{
+	border: solid 5px;
+	border-color: #002366;
+}
+}
